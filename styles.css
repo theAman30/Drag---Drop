@@ -1,41 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 .container {
-    width: 100%;
-    min-height: 100vh;
-    background: #240902;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: #240902;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#left, #right {
-    width: 18.7rem;
-    min-height: 25rem;
-    margin: 1.2rem;
-    border: 2px dashed #fff;
+#left,
+#right {
+  width: 18.7rem;
+  min-height: 25rem;
+  margin: 1.2rem;
+  border: 2px dashed #fff;
 }
 
 .list {
-    background: #a80e06;
-    height: 3.7rem;
-    margin: 1.8rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    cursor: grab;
+  background: #a80e06;
+  height: 3.7rem;
+  margin: 1.8rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
 }
 
 .list img {
-    width: 10px;
-    margin-right: 1rem;
-    margin-left: 1.2rem;
-    
+  width: 10px;
+  margin-right: 1rem;
+  margin-left: 1.2rem;
 }
